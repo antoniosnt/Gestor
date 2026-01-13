@@ -19,8 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"],
-      "@/gestor-components/*": ["./components/*"]
+      "@/app/*": ["./app/*"],
+      "@/gestor-components/*": ["./components/*"],
+      "@/constants/*": ["./utils/constants"]
     }
   },
   "include": [
